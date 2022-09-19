@@ -8,27 +8,31 @@
 </head>
 <body>
     <h1>exemplo de formulario</h1>
-    <fieldset>
-        <legend>sexo</legend>
-        <input type="radio" name="sexo" id="imas">
-        <label for="isxmas">masculino</label> <br>
-        <input type="radio" name="sexo" id="isxfem">
-        <label for="isxfem">feminino</label>
-    </fieldset>
-    <fieldset>
-        <legend>esportes favoritos
-        </legend>
-        <input type="checkbox" name="esbas" id="iesbas">
-        <label for="iesbas">basquete</label>
-        <br>
-        <input type="checkbox" name="esfut" id="iesfut">
-        <label for="iesfut">futebol</label>
-        <br>
-        <input type="checkbox" name="esnat" id="iesnat">
-        <label for="iesnat">natação</label>
-        <br>
-        <input type="checkbox" name="estenis" id="iestenis">
-        <label for="iestenis">tenis</label>
-    </fieldset>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>sexo</legend>
+            <input type="radio" name="sexo" id="imas">
+            <label for="isxmas">masculino</label> <br>
+            <input type="radio" name="sexo" id="isxfem">
+            <label for="isxfem">feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>esportes favoritos
+            </legend>
+            <input type="checkbox" name="esbas" id="iesbas">
+            <label for="iesbas">basquete</label>
+            <br>
+            <input type="checkbox" name="esfut" id="iesfut">
+            <label for="iesfut">futebol</label>
+            <br>
+            <input type="checkbox" name="esnat" id="iesnat">
+            <label for="iesnat">natação</label>
+            <br>
+            <input type="checkbox" name="estenis" id="iestenis">
+            <label for="iestenis">tenis</label>
+        </fieldset>
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+    </form>
 </body>
 </html>
